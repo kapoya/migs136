@@ -52,7 +52,7 @@ if(!$result){
 
 a{
 	color: inherit;
-    text-decoration: none;
+   	text-decoration: none;
 }
 
 a:hover{
@@ -62,10 +62,9 @@ a:hover{
 
 ul {
 	background-color: #dddddd;
-	background-color: #dddddd;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    	list-style-type: none;
+    	margin: 0;
+    	padding: 0;
 	overflow: hidden;
 	margin-bottom: 100px;
 }
@@ -100,8 +99,8 @@ li a:hover {
 	<ul>
 		<li><a href="list.php">Home</a></li>
 		<li><a href="newauction.php">Start New Auction</a></li>
-		<li><a href="contact.asp">Contact</a></li>
-		<li><a href="about.asp">About</a></li>
+		<li><a href="bidlist.php">My Bids</a></li>
+		<li style="float:right;"><a href="logout.php">Logout</a></li>
 	</ul>
 	
 
